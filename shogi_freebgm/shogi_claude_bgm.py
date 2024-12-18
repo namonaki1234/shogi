@@ -17,7 +17,7 @@ bgm.play(-1)  # -1は無限ループ
 
 
 class ShogiGame:
-    def __init__(self, master)
+    def __init__(self, master):
         self.master = master
         self.master.title("将棋")
         self.canvas = tk.Canvas(self.master, width=1000, height=440, bg="#F0DCBA")  # ウィンドウ幅を1500に拡大
